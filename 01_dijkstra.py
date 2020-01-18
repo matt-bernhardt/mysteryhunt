@@ -1,3 +1,4 @@
+# Finding the best way through the woods...
 def func(graph, start, end):
   unvisited = {node: math.inf for node in graph.nodes}
   unvisited[start] = 0
