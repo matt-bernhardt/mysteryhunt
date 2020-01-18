@@ -1,6 +1,6 @@
 # Figuring out the proper fraction of crops to rotate this year...
 def func(n):
-  g = lambda x: (x^2 + 1) % x
+  g = lambda x: (x*x + 1) % x
   x, y = 2, 2
   d = 1
   while d == 1:
